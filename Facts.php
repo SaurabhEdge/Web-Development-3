@@ -48,11 +48,11 @@
             <textarea id="cmtTEXT" name="comment" rows="4" cols="50" placeholder="say what?"></textarea>
         </div>
         <br/>
-        <div class="g-recaptcha" data-sitekey="6Le_3coaAAAAADsmnt8q4JaBxXuuqDK6TR_iS9Fk"></div>
+        <div class="g-recaptcha" data-sitekey="your_key"></div>
         <br/>
         <?php 
     
-    $secretKey = "6Le_3coaAAAAALA58SRNNGut6GNtEbbYpscSq6Ro";
+    $secretKey = "your_s_key";
     $responseKey = $_POST['g-recaptcha-response'];
     $url="https://www.google.com/recaptcha/api/siteverify?secret=$secretKey&response=$responseKey";
 
