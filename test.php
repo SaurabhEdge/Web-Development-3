@@ -4,11 +4,7 @@
 
 
    // echo __DIR__ . '../../';
-    $db= "localhost";
-    $dbname = "ss7586";
-    $username = "ss7586";
-    $password = "Bleep7&antler";
-
+   
     // Create connection
     $conn = new mysqli($db,$username, $password, $dbname,);
 
